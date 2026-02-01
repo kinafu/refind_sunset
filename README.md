@@ -16,7 +16,7 @@
 
  3. Clone this repository into the `themes` directory.
 
- 4. To enable the theme add `include themes/rEFInd-sunset/theme.conf` at the end of
+ 4. To enable the theme add `include themes/refind_sunset/theme.conf` at the end of
     `refind.conf`.
     
 Entries should be autodetected and shown with the proper icons.
@@ -27,7 +27,7 @@ Example:
 
 ```
 menuentry "Windows" {
-	icon /EFI/refind/themes/rEFInd-sunset/icons/os_windows.png
+	icon /EFI/refind/themes/refind_sunset/icons/os_windows.png
 	loader /EFI/Microsoft/Boot/bootmgfw.efi
 }
 ```
@@ -43,9 +43,9 @@ OS Icons are from [munlik's](https://github.com/munlik/refind-theme-regular) rep
 ```
 sudo mkdir /boot/efi/EFI/refind/themes
 
-sudo cp -rf rEFInd-sunset /boot/efi/EFI/refind/themes/
+sudo cp -rf refind_sunset /boot/efi/EFI/refind/themes/
 
-sudo echo "include themes/rEFInd-sunset/theme.conf" >> /boot/efi/EFI/refind/refind.conf
+sudo echo "include themes/refind_sunset/theme.conf" >> /boot/efi/EFI/refind/refind.conf
 ```
 
 
